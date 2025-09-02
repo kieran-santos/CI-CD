@@ -1,0 +1,7 @@
+* We are using WSL ubuntu terminal to connect our repo
+    1. git clone "github repo"
+    2. git commit -m
+    3. git push (to send changes)
+* Git push will ask for github login but will not allow to use password
+* So we need to generate a PAT to use as password or Source Control or make our first git push through VS Code
+    - Source Control -> Manage Unsafe Repositories -> select the repo -> write the message -> Commit
