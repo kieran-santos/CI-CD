@@ -10,6 +10,6 @@ jobs:
       - name: Checkout do código #A identação tem que ser exatamente essa
         uses: actions/checkout@v4
       - name: Instalar o Vercel CLI
-        run: npminstall --global vercel
+        run: npm install --global vercel
       - name: Deploy para a Vercel
-        run: vercel--prod --yes --token ${{ secrets.VERCEL_TOKEN }}
+        run: vercel --prod --yes --token ${{ secrets.VERCEL_TOKEN }}
