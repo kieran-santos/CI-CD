@@ -2,7 +2,7 @@ name: Deploy para Vercel
 on:
   push:
     branches:
-      -main # ou a branch que desejamonitorar
+      - main # ou a branch que desejamonitorar
 jobs:
   deploy:
     runs-on: ubuntu-latest
